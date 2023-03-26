@@ -1,17 +1,38 @@
-.wrapper {
-  display: flex;
+.wrapper .side-left {
+  /* background: #252525; */
+}
+
+.wrapper .side-right {
+  /* background: #c21807; */
 }
 
 .wrapper .side-left,
 .wrapper .side-right {
-  width: 50%;
-  height: 100vh;
+  width: 100%;
+  height: 50vh;
 }
 
-.wrapper .side-left {
-  background: #252525;
+.wrapper .background-img {
+  width: 100%;
+  height: 100%;
 }
 
-.wrapper .side-right {
-  background: #c21807;
+.left-img {
+  background: url(../images/baltic-porter-yellow.jpg);
+}
+
+.right-img {
+  background: url(../images/baltic-porter-blue.jpg);
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    display: flex;
+  }
+
+  .wrapper .side-left,
+  .wrapper .side-right {
+    width: 50%;
+    height: 100vh;
+  }
 }
