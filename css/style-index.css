@@ -7,24 +7,9 @@
   font-family: "Poppins", sans-serif;
 }
 
-.wrapper {
+/* .wrapper {
   position: relative;
   overflow: hidden;
-}
-
-/* .wrapper::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  height: 50%;
-  bottom: 0px;
-  background: linear-gradient(
-    180deg,
-    rgba(211, 11, 11, 0) 80%,
-    rgba(151, 56, 12, 0.418) 100%
-  );
-  pointer-events: none;
 } */
 
 .main-logo {
@@ -44,37 +29,6 @@
   justify-content: center;
   overflow: hidden;
 }
-/* 
-.wrapper .side-left::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  height: 50%;
-  bottom: 0px;
-  background: linear-gradient(
-    180deg,
-    rgba(211, 11, 11, 0) 80%,
-    rgba(151, 12, 12, 0.418) 100%
-  );
-  backdrop-filter: blur(10px);
-  pointer-events: none;
-}
-
-.wrapper .side-right::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  height: 50%;
-  bottom: 0px;
-  background: linear-gradient(
-    180deg,
-    rgba(211, 11, 11, 0) 80%,
-    rgba(12, 68, 151, 0.37) 100%
-  );
-  pointer-events: none;
-} */
 
 .wrapper .background-img {
   width: 100%;
