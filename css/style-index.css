@@ -86,29 +86,12 @@
   top: 0;
   left: 0;
   transition: 0.25s ease all;
-  /* box-shadow: inset 0px 0px 100px 100px #08080821; */
-  /* filter: blur(1px); */
-}
-
-.wrapper .background-img::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  backdrop-filter: blur(1px);
-}
-
-.wrapper:hover .background-img::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  backdrop-filter: none;
+  box-shadow: inset 0px 0px 80px 80px #0808085b;
 }
 
 .left-img {
-  /* background: url(../images/baltic-porter-yellow.jpg); */
-  background: url(../images/shake-my-mango.jpg);
+  background: url(../images/baltic-porter-yellow.jpg);
+  /* background: url(../images/shake-my-mango.jpg); */
 }
 
 .right-img {
@@ -177,10 +160,26 @@
 .wrapper .side-left:hover .background-img,
 .wrapper .side-right:hover .background-img {
   transform: scale(1.2);
-  /* filter: blur(0); */
-  /* backdrop-filter: blur(0px); */
   transition: 0.25s ease all;
   box-shadow: none;
+}
+
+.wrapper .side-left .background-img::before,
+.wrapper .side-right .background-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(1px);
+}
+
+.wrapper .side-left:hover .background-img::before,
+.wrapper .side-right:hover .background-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: none;
 }
 
 @media screen and (min-width: 1200px) {
