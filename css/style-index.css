@@ -132,7 +132,8 @@
 .wrapper .caption .button-slider {
   background: #252525a6;
   color: whitesmoke;
-  padding: 100vh 1em;
+  /* padding: 100vh 1em; */
+  padding: 10em 1em;
   text-decoration: none;
   font-weight: 700;
   font-size: 1em;
