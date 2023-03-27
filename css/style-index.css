@@ -103,18 +103,17 @@
   text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
 }
 
-.wrapper .caption .button-slider {
+/* .wrapper .caption .button-slider {
   background: #252525;
   color: whitesmoke;
   padding: 1em 2em;
   text-decoration: none;
   font-weight: 600;
   font-size: 1em;
-  /* text-transform: uppercase; */
+
   letter-spacing: 0.05em;
   transition: 0.3s ease all;
   border-radius: 10px;
-  /* text-shadow: 0px 1px 0px #0c0101; */
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -128,6 +127,32 @@
   background: #053c72e1;
   color: whitesmoke;
   box-shadow: 0px 10px 14px -7px #1b6edb98;
+} */
+
+.wrapper .caption .button-slider {
+  background: #252525a6;
+  color: whitesmoke;
+  padding: 100vh 1em;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  /* letter-spacing: 0.05em; */
+  transition: 0.3s ease all;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .caption .button-left:hover {
+  background: #e9c00a92;
+  color: #252525;
+  box-shadow: 0px 10px 14px -7px #fcce047b;
+}
+
+.wrapper .caption .button-right:hover {
+  background: #053c72a8;
+  color: whitesmoke;
+  box-shadow: 0px 10px 14px -7px #1b6edb7e;
 }
 
 .wrapper .sides::before {
