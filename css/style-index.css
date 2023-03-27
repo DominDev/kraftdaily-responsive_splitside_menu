@@ -7,10 +7,22 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* .wrapper {
+.wrapper {
   position: relative;
   overflow: hidden;
-} */
+}
+
+.wrapper .main-logo {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+@media screen and (min-width: 1200px) {
+}
 
 .wrapper .side-left,
 .wrapper .side-right {
@@ -86,15 +98,6 @@
   background: #053c72e1;
   color: whitesmoke;
   box-shadow: 0px 10px 14px -7px #1b6edb98;
-}
-
-.main-logo {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
 }
 
 .wrapper .sides::before {
