@@ -165,7 +165,11 @@
 }
 
 .wrapper .side-left:hover .background-img,
-.wrapper .side-right:hover .background-img {
+.wrapper .side-right:hover .background-img,
+.wrapper .side-left:focus .background-img,
+.wrapper .side-right:focus .background-img,
+.wrapper .side-left:active .background-img,
+.wrapper .side-right:active .background-img {
   transform: scale(1.2);
   transition: 0.25s ease all;
   box-shadow: none;
