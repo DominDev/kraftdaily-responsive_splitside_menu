@@ -41,27 +41,19 @@
 
 .button-left {
   left: 0;
-  /* top: -5%;
-  transform: rotate(90deg); */
 }
 
 .button-right {
   right: 0;
-  /* bottom: -5%;
-  transform: rotate(90deg); */
 }
 
 @media screen and (max-width: 1200px) {
   .button-left {
-    /* top: -5%; */
     top: -4em;
-    /* left: 0; */
     transform: rotate(90deg);
-    /* margin: 1.5em 0.25em; */
   }
 
   .button-right {
-    /* bottom: -5%; */
     bottom: -4em;
     transform: rotate(90deg);
   }
