@@ -145,6 +145,11 @@ body {
   text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
 }
 
+.wrapper .caption .text-header:hover {
+  transform: scale(1.2);
+  transition: 0.25s ease all;
+}
+
 .wrapper .sides::before {
   background: linear-gradient(
     0deg,
